@@ -1,0 +1,10 @@
+let num;
+
+function validateNum(num){
+    
+    if (num%2===0)
+        console.log(`The given number ${num} is even`);
+    else
+       console.log(`The given number ${num} is odd`);
+}
+validateNum(40)
